@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+body{
+    background-image: url(../img/fundo.jpg);
+    background-size:100%;
+    background-attachment: cover;
+    background-repeat: no-repeat;
+    color: white;
+   
+}
+/** Logo e Menu **/
+
+.menu{
+    position: relative;
+    width: 90%;
+    font-size: 14px;
+    
+}
+
+nav{
+    position: absolute;
+    top: 15px;
+    right: 0;
+    
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+    
+}
+
+li a {
+    text-decoration: none;
+    padding: 5px 5px;
+    text-transform: uppercase;
+    color: white;
+}
+.menu  li a:hover{
+    color: black;
+    background: white;
+    box-sizing: border-box;
+    padding: 5px 22px;
+}
+/** Conteúdo da Página**/
+main{
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.conteudo-principal{
+    padding-top: 200px;
+    
+}
+
+.btn a{
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 15px;
+}
+article{
+    text-align: center;
+}
+
+h1{
+    text-transform: uppercase;
+    font-size: 50px;
+    color: rgb(252, 247, 247);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.btn1{
+    padding: 10px;
+    line-height: 50px;
+    background-color: transparent;
+    border: solid 1px white;
+    color: white;
+}
+
+.btn2{
+    padding: 10px;
+    background-color: transparent;
+    border: solid 1px white;
+    color: white;
+}
+
+.btn :hover{
+    padding: 12px 28px;
+    background-color: rgb(26, 201, 245);
+    opacity: 0.5;
+}
